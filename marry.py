@@ -1,6 +1,6 @@
-# first letter in s1, going forwards is it in s2?
+# first letter in s1, going left to right is it in s2?
 # remove chars until it is
-
+# if you run out of chars, NO
 
 def canMarry(s1, s2):
     if (s1 in s2 or s2 in s1):
